@@ -1,0 +1,15 @@
+<div id="portfolio">
+  <div class="grid">
+    <div class="ih-item square effect13 bottom_to_top" *ngFor="let t of trabajos">
+      <a href="{{ t.url }}">
+            <div class="img">
+          <img src="{{ t.imagenPrincipal }}" alt="img">
+        </div>
+            <div class="info">
+                <h3>{{ t.tipo }}</h3>
+                <p>{{ t.nombre }}</p>
+            </div>
+      </a>
+    </div>	
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<div id="contacto">
+  <div class="cabecera">
+    <span class="icon-contacto"> </span>
+  </div>
+  <form id="form1" action="php/validator.php" method="POST">
+            <h3 class="form-title">Si quieres saber más o ponerte en contacto conmigo, estaré encantada de atenderte.</h3>
+             <p class="name">
+         <input name="name" type="text" class="feedback-input" placeholder="Nombre" id="name" pattern=".{3,}" maxlength="100" required/>
+             </p>
+             <p class="email">
+               <input name="email" type="email" class="feedback-input" id="email" placeholder="Email" maxlength="100" required/>
+             </p>
+             <p class="textArea">
+               <textarea name="textArea" class="feedback-input" id="textArea" placeholder="Texto" rows="10" maxlength="1000" required></textarea>
+             </p>
+             <div class="submit">
+                 <input type="submit" value="Enviar" id="button" class="btGeneral"/>
+             </div>
+     </form>
+</div>
