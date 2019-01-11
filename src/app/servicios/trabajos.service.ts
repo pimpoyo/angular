@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { Trabajo } from '../entidades/app.entidades.trabajo';
-import { Trabajo } from '../../assets/img';
 
 @Injectable({
   providedIn: 'root'
