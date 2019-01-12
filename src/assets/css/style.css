@@ -208,15 +208,6 @@
 	width: 50%;
 }
 
-#sobremi {
-	font-size: 24px;
-	line-height: 120%;
-}
-
-.miDescripcion {
-	text-align: justify;
-}
-
 .oscuro {
 	font-size: 20px;
 	font-weight: 400;
@@ -298,10 +289,6 @@
 		width: 100%;
 	}
 
-	#sobremi {
-		padding: 1px 0;
-	}
-
 	#contacto {
 		padding: 1px 35px 25px;
 	}
@@ -309,10 +296,6 @@
 	.cabecera {
 		margin: 141px auto 0;
 		width: 70%;
-	}
-
-	.miDescripcion {
-		padding: 0 8%;
 	}
 
 	.autorretrato img {
@@ -373,10 +356,6 @@
 		width: 100%;
 	}
 	
-	.miDescripcion {
-		padding: 50px 7%;
-	}
-	
 	#form1 {
 		width: 93%;
 	}
@@ -391,15 +370,11 @@
 
 	#mockup-cine {
 		padding: 10%;
-	}
-	
+	}	
+
 	.cabecera {
 		width: 70%;
 	}	
-
-	.miDescripcion {
-		padding: 0 10%;
-	}
 
 	#form1 {
 		width: 80%;
@@ -434,14 +409,10 @@
 	#mockup-cine {
 		width: 100%;
 	}
-	
+
 	.cabecera {
 		width: 60%;
 	}	
-
-	.miDescripcion {
-		padding: 0 10%;
-	}
 
 	#form1 {
 		width: 80%;
@@ -477,10 +448,6 @@
 	#mockup-cine {
 		padding: 12%;
 		width: 70%;
-	}
-	
-	.miDescripcion {
-		padding: 0 20%;
 	}
 	
 	#form1 {

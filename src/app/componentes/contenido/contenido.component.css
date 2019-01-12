@@ -12,14 +12,14 @@
 	.contenido {
 		padding-left: 27%;
 		position: relative;	
-    }
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
 	.contenido {
 		padding-left: 27%;
 		position: relative;	
-    }
+	}
 }
 
 @media (min-width: 1200px) {
