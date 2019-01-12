@@ -1,8 +1,3 @@
-.contenido {
-	float: left;
-	background-color: #ffffff;
-}
-
 .contenido2 {
 	background-color: #f7f7f7;
 }
@@ -436,10 +431,6 @@
 		width: 70%;
 	}
 
-	.contenido {
-		width: 100%;
-	}
-
 	.miDescripcion {
 		padding: 0 8%;
 	}
@@ -499,13 +490,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-	
-	.contenido {
-		padding-left: 27%;
-		position: relative;	
-		width: 100%;
-	}
-	
 	.trabajo-texto {
 		width: 100%;
 	}
@@ -559,13 +543,6 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
-	.contenido {
-		padding-left: 27%;
-		position: relative;	
-		width: 100%;
-	}
-	
 	.trabajo-texto {
 		width: 35%;
 		height: 100%;
@@ -613,13 +590,6 @@
 }
 
 @media (min-width: 1200px) {
-	
-	.contenido {
-		padding-left: 23%;
-		position: relative;	
-		width: 100%;
-	}
-	
 	.trabajo-texto {
 		width: 28%;
 		height: 100%;
