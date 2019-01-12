@@ -1,0 +1,171 @@
+.menu {
+	background: #ffffff url("../../../assets/img/pattern.png") repeat scroll 0 0;
+	float: left;
+    position: fixed;
+    z-index: 99;
+}
+
+.navbar-brand {
+	height: 120px;
+    text-align: right;
+    width: 100%;
+}
+
+.navbar-brand span {
+	color: black;
+	font-size: 100px;
+	transition-property: color;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+}
+
+.navbar-brand span:hover {
+	color: #00AEf6;
+}
+
+.navbar-custom {
+	background: transparent;
+	border-color: transparent;
+	font-size: 28px;
+	line-height: 120%;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background: transparent;
+}
+
+#bs-menu ul li a {
+	color: black;
+	padding: 5px 0 0;
+}
+
+#bs-menu ul li a::before {
+	border-bottom: 1px solid black;
+    color: transparent;
+    content: attr(data-hover);
+    max-width: 0;
+    overflow: hidden;
+	position: absolute;
+    transition: max-width 0.5s ease 0s;
+}
+
+#bs-menu ul li a:hover::before, #bs-menu ul li a:focus::before {
+	max-width: 100%;
+}
+
+.secundaria {
+    margin-top: 50px;
+}
+
+.social {
+	float: right;
+	height: 25px;
+	margin-right: 10px;
+	width: 25px;
+}
+
+.social span {
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	transition-property: color;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+}
+
+.social span:hover {
+	color: #00AEf6;
+}
+
+
+@media (max-width: 767px) {
+	.menu {
+		background-image: url("../../../assets/img/pattern.png");
+		background-repeat: repeat;
+		width: 100%;
+    }
+
+    .navbar-brand {
+		padding-right: 0px;
+		padding-left: 5px;
+		width: 60%;
+    }
+
+    .navbar-toggle {
+		margin-top: 38px;			
+	}
+
+	.navbar-default .navbar-toggle {
+		border-color: transparent;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: black;
+		border-radius: 3px;
+		display: block;
+		height: 6px;
+		width: 35px;
+    }
+    
+    .secundaria {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .menu {
+        width: 27%;
+        height: 100%;
+        min-height: 540px;
+        padding-bottom: 70px;
+    }
+	
+	.navbar-brand span {
+		font-size: 72px;
+    }
+    
+    .navbar-custom {
+		text-align: right;
+		float: left;
+		width: 100%;
+    }
+
+    .social {
+		height: 35px;
+		margin-right: 12px;
+		width: 35px;
+	}
+
+	.social span {
+		font-size: 35px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.menu {
+		width: 27%;
+		height: 100%;
+		min-height: 540px;
+		padding-bottom: 70px;
+    }
+
+    .navbar-custom {
+		text-align: right;
+		float: left;
+		width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+	.menu {
+		width: 23%;
+		height: 100%;
+		min-height: 540px;
+		padding-bottom: 70px;
+    }
+
+    .navbar-custom {
+		text-align: right;
+		float: left;
+		width: 100%;
+    }
+}
