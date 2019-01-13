@@ -24,24 +24,3 @@ $("#form1").submit(function(event) {
     });
   event.preventDefault();
 });
-
-$("#l1").click(function(){
-	$("#l1").addClass("seccion");
-	$("#l2").removeClass("seccion");
-	$("#l3").removeClass("seccion");
-	$("#bs-menu").removeClass("in");
-});
-
-$("#l2").click(function(){
-	$("#l2").addClass("seccion");
-	$("#l1").removeClass("seccion");
-	$("#l3").removeClass("seccion");
-	$("#bs-menu").removeClass("in");
-});
-
-$("#l3").click(function(){
-	$("#l3").addClass("seccion");
-	$("#l2").removeClass("seccion");
-	$("#l1").removeClass("seccion");
-	$("#bs-menu").removeClass("in");
-});
