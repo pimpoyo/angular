@@ -19,24 +19,9 @@
       </div><!-- /.navbar-collapse -->
   </nav>
   <nav class="navbar navbar-default navbar-custom secundaria" role="navigation">
-    <a href="https://es.pinterest.com/anapimpoyo/">
+    <a  *ngFor="let social of socials" href="{{ social.url }}">
       <div class="social">
-        <span class="icon-pinterest"> </span>
-      </div>
-    </a>
-    <a href="https://twitter.com/p1mp0y0">
-      <div class="social">
-        <span class="icon-twitter"> </span>
-      </div>
-    </a>
-    <a href="https://www.linkedin.com/in/pimpoyo">
-      <div class="social">
-        <span class="icon-linkedin"> </span>
-      </div>
-    </a>
-    <a href="https://github.com/pimpoyo">
-      <div class="social">
-        <span class="icon-github"> </span>
+        <span class="{{ social.icon }}"> </span>
       </div>
     </a>
   </nav>

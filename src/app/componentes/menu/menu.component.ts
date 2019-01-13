@@ -1,16 +1,23 @@
 import { Component, OnInit } from '@angular/core';
+import { Social } from 'src/app/entidades/app.entidades.social';
+import { SocialService } from 'src/app/servicios/social.service';
 
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',
   styleUrls: ['./menu.component.css']
 })
+
 export class MenuComponent implements OnInit {
+
+  public socials:Social[];
+
   status1: string;
   status2: string;
   status3: string;
 
-  constructor() { 
+  constructor(socialsService:SocialService) { 
+    this.socials = socialsService.listar();
   }
 
   ngOnInit() {
@@ -18,7 +25,6 @@ export class MenuComponent implements OnInit {
 
   
   clickEvent(lista){
-    console.log("lista:" + lista);
     this.status1 = '';
     this.status2 = '';
     this.status3 = '';
